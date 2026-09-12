@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VotaMG — Candidatos a Deputado Federal e Estadual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__title">
+    <h1>VotaMG</h1>
+    <p>Candidatos a Deputado Federal e Estadual em Minas Gerais &mdash; Eleições 2026</p>
+  </div>
+
+  <div class="searchbar">
+    <input type="search" id="busca" placeholder="Buscar por nome, número ou partido" aria-label="Buscar candidato">
+  </div>
+
+  <div class="filtros" id="filtros">
+    <button class="filtro filtro--ativo" data-cargo="TODOS">Todos</button>
+    <button class="filtro" data-cargo="DEPUTADO FEDERAL">Federal</button>
+    <button class="filtro" data-cargo="DEPUTADO ESTADUAL">Estadual</button>
+  </div>
+</header>
+
+<main>
+  <p class="contagem" id="contagem"></p>
+  <div class="lista" id="lista" aria-live="polite"></div>
+</main>
+
+<div class="detalhe-overlay" id="overlay" hidden>
+  <div class="detalhe" id="detalhe" role="dialog" aria-modal="true">
+    <button class="detalhe__fechar" id="fechar" aria-label="Fechar">×</button>
+    <div id="detalhe-conteudo"></div>
+  </div>
+</div>
+
+<footer class="rodape">
+  <p id="fonte-info"></p>
+  <p class="rodape__nota">Dados oficiais do TSE. Processos judiciais listados não indicam culpa — todo candidato tem direito à presunção de inocência até decisão definitiva.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

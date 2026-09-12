@@ -1,0 +1,156 @@
+{
+  "ano_eleicao": 2026,
+  "uf": "MG",
+  "gerado_em": "2026-09-12T09:00:00-03:00",
+  "aviso": "DADOS FICTÍCIOS DE EXEMPLO — para validar o layout do site antes de rodar o pipeline com dados reais do TSE.",
+  "total_candidatos": 6,
+  "candidatos": [
+    {
+      "sq_candidato": "ex001",
+      "numero_urna": "1234",
+      "nome_urna": "MARIA DA SILVA (exemplo)",
+      "nome_civil": "MARIA APARECIDA DA SILVA",
+      "cargo": "DEPUTADO ESTADUAL",
+      "partido_sigla": "PXX",
+      "partido_nome": "Partido Exemplo",
+      "municipio_ue": "BELO HORIZONTE",
+      "genero": "FEMININO",
+      "grau_instrucao": "SUPERIOR COMPLETO",
+      "ocupacao_declarada": "PROFESSORA DE ENSINO MÉDIO",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": true,
+      "candidaturas_anteriores": 3,
+      "bens_total_declarado": 210000.0,
+      "bens": [
+        {"tipo": "Apartamento", "descricao": "Imóvel residencial", "valor": "180000.00"},
+        {"tipo": "Veículo", "descricao": "Automóvel de passeio", "valor": "30000.00"}
+      ],
+      "doacoes_total": 45000.0,
+      "processos": [],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    },
+    {
+      "sq_candidato": "ex002",
+      "numero_urna": "4321",
+      "nome_urna": "JOÃO PEREIRA (exemplo)",
+      "nome_civil": "JOÃO CARLOS PEREIRA",
+      "cargo": "DEPUTADO FEDERAL",
+      "partido_sigla": "PYY",
+      "partido_nome": "Partido Exemplo Y",
+      "municipio_ue": "UBERLÂNDIA",
+      "genero": "MASCULINO",
+      "grau_instrucao": "ENSINO MÉDIO COMPLETO",
+      "ocupacao_declarada": "EMPRESÁRIO",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": false,
+      "candidaturas_anteriores": 0,
+      "bens_total_declarado": 850000.0,
+      "bens": [
+        {"tipo": "Imóvel comercial", "descricao": "Galpão industrial", "valor": "650000.00"},
+        {"tipo": "Aplicação financeira", "descricao": "Poupança/CDB", "valor": "200000.00"}
+      ],
+      "doacoes_total": 120000.0,
+      "processos": [
+        {"tipo": "Cível", "descricao": "Ação em tramitação — sem julgamento definitivo", "situacao": "em andamento"}
+      ],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    },
+    {
+      "sq_candidato": "ex003",
+      "numero_urna": "5500",
+      "nome_urna": "ANA COSTA (exemplo)",
+      "nome_civil": "ANA LUIZA COSTA",
+      "cargo": "DEPUTADO ESTADUAL",
+      "partido_sigla": "PZZ",
+      "partido_nome": "Partido Exemplo Z",
+      "municipio_ue": "JUIZ DE FORA",
+      "genero": "FEMININO",
+      "grau_instrucao": "SUPERIOR COMPLETO",
+      "ocupacao_declarada": "MÉDICA",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": false,
+      "candidaturas_anteriores": 1,
+      "bens_total_declarado": 620000.0,
+      "bens": [
+        {"tipo": "Imóvel residencial", "descricao": "Casa", "valor": "500000.00"},
+        {"tipo": "Veículo", "descricao": "Automóvel", "valor": "120000.00"}
+      ],
+      "doacoes_total": 30000.0,
+      "processos": [],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    },
+    {
+      "sq_candidato": "ex004",
+      "numero_urna": "1122",
+      "nome_urna": "CARLOS MENDES (exemplo)",
+      "nome_civil": "CARLOS EDUARDO MENDES",
+      "cargo": "DEPUTADO FEDERAL",
+      "partido_sigla": "PXX",
+      "partido_nome": "Partido Exemplo",
+      "municipio_ue": "CONTAGEM",
+      "genero": "MASCULINO",
+      "grau_instrucao": "ENSINO FUNDAMENTAL",
+      "ocupacao_declarada": "AGRICULTOR",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": false,
+      "candidaturas_anteriores": 0,
+      "bens_total_declarado": 95000.0,
+      "bens": [
+        {"tipo": "Veículo", "descricao": "Caminhonete", "valor": "95000.00"}
+      ],
+      "doacoes_total": 8000.0,
+      "processos": [],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    },
+    {
+      "sq_candidato": "ex005",
+      "numero_urna": "3344",
+      "nome_urna": "FERNANDA LIMA (exemplo)",
+      "nome_civil": "FERNANDA REGINA LIMA",
+      "cargo": "DEPUTADO ESTADUAL",
+      "partido_sigla": "PWW",
+      "partido_nome": "Partido Exemplo W",
+      "municipio_ue": "MONTES CLAROS",
+      "genero": "FEMININO",
+      "grau_instrucao": "SUPERIOR COMPLETO",
+      "ocupacao_declarada": "ADVOGADA",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": true,
+      "candidaturas_anteriores": 5,
+      "bens_total_declarado": 1450000.0,
+      "bens": [
+        {"tipo": "Imóvel residencial", "descricao": "Casa", "valor": "900000.00"},
+        {"tipo": "Imóvel rural", "descricao": "Sítio", "valor": "400000.00"},
+        {"tipo": "Veículo", "descricao": "Automóvel", "valor": "150000.00"}
+      ],
+      "doacoes_total": 210000.0,
+      "processos": [
+        {"tipo": "Eleitoral", "descricao": "Representação em tramitação — sem julgamento definitivo", "situacao": "em andamento"}
+      ],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    },
+    {
+      "sq_candidato": "ex006",
+      "numero_urna": "9090",
+      "nome_urna": "PEDRO ALVES (exemplo)",
+      "nome_civil": "PEDRO HENRIQUE ALVES",
+      "cargo": "DEPUTADO FEDERAL",
+      "partido_sigla": "PZZ",
+      "partido_nome": "Partido Exemplo Z",
+      "municipio_ue": "GOVERNADOR VALADARES",
+      "genero": "MASCULINO",
+      "grau_instrucao": "SUPERIOR COMPLETO",
+      "ocupacao_declarada": "ENGENHEIRO CIVIL",
+      "situacao_candidatura": "DEFERIDO",
+      "concorrendo_reeleicao": false,
+      "candidaturas_anteriores": 0,
+      "bens_total_declarado": 320000.0,
+      "bens": [
+        {"tipo": "Apartamento", "descricao": "Imóvel residencial", "valor": "320000.00"}
+      ],
+      "doacoes_total": 15000.0,
+      "processos": [],
+      "fonte": "TSE - Portal de Dados Abertos (DivulgaCandContas)"
+    }
+  ]
+}
